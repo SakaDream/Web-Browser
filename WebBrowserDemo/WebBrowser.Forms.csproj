@@ -129,8 +129,6 @@
       <DependentUpon>WhatsNew.cs</DependentUpon>
     </Compile>
     <Compile Include="GlobalKeyboardHook.cs" />
-    <Compile Include="JSON.cs" />
-    <Compile Include="Profile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainWindow.resx">
