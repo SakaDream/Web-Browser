@@ -74,7 +74,6 @@
             this.btnNT.Size = new System.Drawing.Size(40, 40);
             this.btnNT.TabIndex = 12;
             this.btnNT.UseVisualStyleBackColor = true;
-            this.btnNT.Click += new System.EventHandler(this.btnNT_Click);
             // 
             // btnForward
             // 
@@ -87,7 +86,6 @@
             this.btnForward.Size = new System.Drawing.Size(38, 38);
             this.btnForward.TabIndex = 11;
             this.btnForward.UseVisualStyleBackColor = true;
-            this.btnForward.Click += new System.EventHandler(this.btnForward_Click);
             // 
             // btnBack
             // 
@@ -100,7 +98,6 @@
             this.btnBack.Size = new System.Drawing.Size(38, 38);
             this.btnBack.TabIndex = 10;
             this.btnBack.UseVisualStyleBackColor = true;
-            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // txtA
             // 
@@ -112,7 +109,6 @@
             this.txtA.Name = "txtA";
             this.txtA.Size = new System.Drawing.Size(918, 25);
             this.txtA.TabIndex = 6;
-            this.txtA.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtA_KeyPress);
             // 
             // btnS
             // 
@@ -126,7 +122,6 @@
             this.btnS.Size = new System.Drawing.Size(40, 40);
             this.btnS.TabIndex = 9;
             this.btnS.UseVisualStyleBackColor = true;
-            this.btnS.Click += new System.EventHandler(this.btnS_Click);
             // 
             // btnH
             // 
@@ -139,7 +134,6 @@
             this.btnH.Size = new System.Drawing.Size(40, 40);
             this.btnH.TabIndex = 8;
             this.btnH.UseVisualStyleBackColor = true;
-            this.btnH.Click += new System.EventHandler(this.btnH_Click);
             // 
             // btnR
             // 
@@ -152,16 +146,10 @@
             this.btnR.Size = new System.Drawing.Size(38, 38);
             this.btnR.TabIndex = 7;
             this.btnR.UseVisualStyleBackColor = true;
-            this.btnR.Click += new System.EventHandler(this.btnR_Click);
-            // 
-            // bwDownloading
-            // 
-            this.bwDownloading.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bwDownloading_DoWork);
             // 
             // timer
             // 
             this.timer.Interval = 1000;
-            this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
             // tc
             // 
@@ -172,7 +160,6 @@
             this.tc.SelectedIndex = 0;
             this.tc.Size = new System.Drawing.Size(1264, 709);
             this.tc.TabIndex = 10;
-            this.tc.SelectedIndexChanged += new System.EventHandler(this.tc_SelectedIndexChanged);
             // 
             // btnCT
             // 
@@ -186,7 +173,6 @@
             this.btnCT.Size = new System.Drawing.Size(38, 38);
             this.btnCT.TabIndex = 13;
             this.btnCT.UseVisualStyleBackColor = true;
-            this.btnCT.Click += new System.EventHandler(this.btnCT_Click);
             // 
             // Form1
             // 
@@ -199,8 +185,6 @@
             this.MinimumSize = new System.Drawing.Size(500, 350);
             this.Name = "Form1";
             this.Text = "Web Browser";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ToolBar.ResumeLayout(false);
             this.ToolBar.PerformLayout();
             this.ResumeLayout(false);
