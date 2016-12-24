@@ -39,7 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationFocus.cs" />
+    <Compile Include="Downloader.cs" />
+    <Compile Include="DownloadHandler.cs" />
     <Compile Include="F_MainWindow.cs" />
+    <Compile Include="GlobalKeyboardHook.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

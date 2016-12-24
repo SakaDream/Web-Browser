@@ -101,9 +101,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicationFocus.cs" />
-    <Compile Include="Downloader.cs" />
-    <Compile Include="DownloadHandler.cs" />
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,7 +125,6 @@
     <Compile Include="WhatsNew.Designer.cs">
       <DependentUpon>WhatsNew.cs</DependentUpon>
     </Compile>
-    <Compile Include="GlobalKeyboardHook.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainWindow.resx">
@@ -206,6 +202,16 @@
     <None Include="Resources\loading.gif" />
     <None Include="Resources\close_tab.png" />
     <Content Include="web-browser.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebBrowser.Functions\WebBrowser.Functions.csproj">
+      <Project>{85e64d3f-7aea-4949-accc-6ed39c2eaf53}</Project>
+      <Name>WebBrowser.Functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebBrowser.Models\WebBrowser.Models.csproj">
+      <Project>{5a895654-fc14-4e9e-8394-6c060f0fb8c0}</Project>
+      <Name>WebBrowser.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\cef.redist.x64.3.2623.1401\build\cef.redist.x64.targets" Condition="Exists('..\packages\cef.redist.x64.3.2623.1401\build\cef.redist.x64.targets')" />
