@@ -1,6 +1,4 @@
-﻿using CefSharp;
-using CefSharp.WinForms.Internals;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
