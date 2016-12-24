@@ -1,6 +1,6 @@
 ﻿namespace WebBrowserDemo
 {
-    partial class Form3
+    partial class About
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(About));
             this.lblName = new System.Windows.Forms.Label();
             this.lblPowered = new System.Windows.Forms.Label();
             this.lblAuthor = new System.Windows.Forms.Label();

@@ -2,9 +2,9 @@
 
 namespace WebBrowserDemo
 {
-    public partial class Form4 : Form
+    public partial class WhatsNew : Form
     {
-        public Form4()
+        public WhatsNew()
         {
             InitializeComponent();
             CenterToScreen();

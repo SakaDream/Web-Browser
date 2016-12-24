@@ -1,6 +1,6 @@
 ﻿namespace WebBrowserDemo
 {
-    partial class Form1
+    partial class MainWindow
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.ToolBar = new System.Windows.Forms.Panel();
             this.btnNT = new System.Windows.Forms.Button();
             this.btnForward = new System.Windows.Forms.Button();

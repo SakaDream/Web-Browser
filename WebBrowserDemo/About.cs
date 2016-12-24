@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace WebBrowserDemo
 {
-    public partial class Form3 : Form
+    public partial class About : Form
     {
         public string CurrentVersion
         {
@@ -16,7 +16,7 @@ namespace WebBrowserDemo
             }
         }
 
-        public Form3()
+        public About()
         {
             InitializeComponent();
             CenterToScreen();
@@ -28,7 +28,7 @@ namespace WebBrowserDemo
 
         private void btnWN_Click(object sender, System.EventArgs e)
         {
-            Form4 WhatsNewForm = new Form4();
+            WhatsNew WhatsNewForm = new WhatsNew();
             WhatsNewForm.ShowDialog(this);
         }
     }
